@@ -8,6 +8,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 10%;
 }
 
 .logo {
@@ -27,10 +28,6 @@ nav {
 
 main {
     background-color: #1F2937;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: space-around; */
-    
     
 }
 
@@ -94,7 +91,7 @@ main img {
     display: flex;
     justify-content: space-around;
     justify-items: center;
-    
+    height: 300px;
 }
 
 section h2 {
@@ -104,14 +101,34 @@ img {
     border: 2px solid #3882F6;
     border-radius: 7px;
     margin: 15px;
-    height: 125px;
-    width: 125px;
+    height: 200px;
+    width: 200px;
     text-align: center;
     background-color: #E5E7EB;
+    justify-content: space-around;
 }
 
 .caption {
     display: block;
-    margin: 15px;
     text-align: center;
+}
+
+.quote_container {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1F2937;
+    text-align: center;
+}
+
+.quote_container quote{
+    padding: 20px 20px;
+}
+
+.quote_container p {
+    text-align: right;
+    font-size: 1.50rem;
+    font-weight: 300;
 }
