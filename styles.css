@@ -88,3 +88,30 @@ main img {
 .main_img_container p {
     /* margin: 90px 0 0 0; */
 }
+
+
+.random_inf_container {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    
+}
+
+section h2 {
+    text-align: center;
+}
+img {
+    border: 2px solid #3882F6;
+    border-radius: 7px;
+    margin: 15px;
+    height: 125px;
+    width: 125px;
+    text-align: center;
+    background-color: #E5E7EB;
+}
+
+.caption {
+    display: block;
+    margin: 15px;
+    text-align: center;
+}
